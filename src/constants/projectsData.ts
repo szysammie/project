@@ -1,7 +1,7 @@
 import aigcbenchPreview from '../assets/aigcbench_preview.svg';
 import dualsgPreview from '../assets/dualsg_preview.svg';
 import ecgExpertQAPreview from '../assets/ecg_expert_qa_preview.svg';
-import folioSpacePreview from '../assets/folio_space.gif';
+import foliospacePreview from '../assets/foliospace_preview.svg';
 import kairosPreview from '../assets/kairos_preview.svg';
 import okwPreview from '../assets/okw_preview.svg';
 import probingMemesPreview from '../assets/probing_memes_preview.svg';
@@ -176,7 +176,7 @@ export const projectsData: Project[] = [
     id: SLIDE_IDS.PROJECTS,
     name: 'FolioSpace',
     title: 'FolioSpace: A Gamified 3D First-Person Portfolio Gallery',
-    preview: folioSpacePreview,
+    preview: foliospacePreview,
     position: { x: 1060, y: -1060, z: 1400, rotateY: 315 },
     description:
       'A modern and elegant personal portfolio website with smooth animations and responsive design, built with Vue 3 and impress.js.',
