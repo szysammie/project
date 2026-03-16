@@ -40,4 +40,4 @@ export const USER_CONFIG = {
   ] as ContactLink[],
 } as const;
 
-export const GITHUB_TOKEN = 'YOUR_GITHUB_TOKEN_HERE';
+export const GITHUB_TOKEN = import.meta.env.VITE_GITHUB_TOKEN || '';
